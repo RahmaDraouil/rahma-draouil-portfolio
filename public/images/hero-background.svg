@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#17324D;stop-opacity:0.95" />
+      <stop offset="50%" style="stop-color:#1593D0;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#1B8A88;stop-opacity:0.85" />
+    </linearGradient>
+    <radialGradient id="glow1">
+      <stop offset="0%" style="stop-color:#1593D0;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#1593D0;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow2">
+      <stop offset="0%" style="stop-color:#1B8A88;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1B8A88;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+  
+  <!-- Glowing orbs -->
+  <circle cx="300" cy="200" r="150" fill="url(#glow1)" opacity="0.6"/>
+  <circle cx="1600" cy="800" r="200" fill="url(#glow2)" opacity="0.5"/>
+  <circle cx="1200" cy="300" r="120" fill="url(#glow1)" opacity="0.4"/>
+  
+  <!-- Network nodes -->
+  <circle cx="400" cy="300" r="8" fill="#1593D0" opacity="0.8"/>
+  <circle cx="700" cy="200" r="6" fill="#1B8A88" opacity="0.7"/>
+  <circle cx="900" cy="400" r="7" fill="#1593D0" opacity="0.8"/>
+  <circle cx="1200" cy="500" r="8" fill="#1B8A88" opacity="0.7"/>
+  <circle cx="1400" cy="300" r="6" fill="#1593D0" opacity="0.8"/>
+  <circle cx="600" cy="700" r="7" fill="#1B8A88" opacity="0.7"/>
+  <circle cx="1000" cy="800" r="8" fill="#1593D0" opacity="0.7"/>
+  <circle cx="1500" cy="600" r="6" fill="#1B8A88" opacity="0.8"/>
+  
+  <!-- Connection lines -->
+  <line x1="400" y1="300" x2="700" y2="200" stroke="#1593D0" stroke-width="1.5" opacity="0.3"/>
+  <line x1="700" y1="200" x2="900" y2="400" stroke="#1B8A88" stroke-width="1.5" opacity="0.3"/>
+  <line x1="900" y1="400" x2="1200" y2="500" stroke="#1593D0" stroke-width="1.5" opacity="0.3"/>
+  <line x1="1200" y1="500" x2="1400" y2="300" stroke="#1B8A88" stroke-width="1.5" opacity="0.3"/>
+  <line x1="400" y1="300" x2="600" y2="700" stroke="#1593D0" stroke-width="1.5" opacity="0.3"/>
+  <line x1="600" y1="700" x2="1000" y2="800" stroke="#1B8A88" stroke-width="1.5" opacity="0.3"/>
+  <line x1="1200" y1="500" x2="1500" y2="600" stroke="#1593D0" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Abstract code elements -->
+  <g opacity="0.15">
+    <text x="150" y="500" font-family="monospace" font-size="24" fill="#fff">{'<dev>'}</text>
+    <text x="1650" y="400" font-family="monospace" font-size="24" fill="#fff">{'</>'}</text>
+    <text x="800" y="900" font-family="monospace" font-size="20" fill="#fff">npm run</text>
+    <text x="200" y="800" font-family="monospace" font-size="18" fill="#fff">const AI =</text>
+  </g>
+  
+  <!-- Cloud shapes -->
+  <g opacity="0.2" fill="#fff">
+    <ellipse cx="1700" cy="200" rx="80" ry="40"/>
+    <ellipse cx="1650" cy="200" rx="50" ry="30"/>
+    <ellipse cx="1750" cy="200" rx="50" ry="30"/>
+    <ellipse cx="300" cy="900" rx="70" ry="35"/>
+    <ellipse cx="260" cy="900" rx="45" ry="25"/>
+    <ellipse cx="340" cy="900" rx="45" ry="25"/>
+  </g>
+  
+  <!-- Circuit patterns -->
+  <g stroke="#1593D0" stroke-width="2" fill="none" opacity="0.2">
+    <path d="M 100 100 L 200 100 L 200 150 L 250 150"/>
+    <path d="M 1800 900 L 1750 900 L 1750 950 L 1700 950"/>
+    <circle cx="200" cy="100" r="5" fill="#1593D0"/>
+    <circle cx="200" cy="150" r="5" fill="#1593D0"/>
+    <circle cx="1750" cy="900" r="5" fill="#1593D0"/>
+    <circle cx="1750" cy="950" r="5" fill="#1593D0"/>
+  </g>
+</svg>

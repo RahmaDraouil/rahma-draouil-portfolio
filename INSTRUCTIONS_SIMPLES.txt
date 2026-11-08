@@ -1,0 +1,184 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║          COMMENT AJOUTER VOTRE PHOTO ET VOTRE CV                ║
+║                  Portfolio Rahma Draouil                         ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════
+  📸 ÉTAPE 1 : AJOUTER VOTRE PHOTO
+═══════════════════════════════════════════════════════════════════
+
+1. Cliquez droit sur votre photo dans le chat
+2. Sélectionnez "Enregistrer l'image sous..."
+3. Nommez-la EXACTEMENT : photo-rahma.png
+4. Copiez-la dans ce dossier :
+
+   👉 C:\Users\hp\Desktop\portflio\portfolio-rahma\public\images\
+
+   Résultat :
+   📂 images
+      └─ 📄 photo-rahma.png  ← Votre photo ici
+
+
+═══════════════════════════════════════════════════════════════════
+  📄 ÉTAPE 2 : AJOUTER VOTRE CV
+═══════════════════════════════════════════════════════════════════
+
+1. Localisez votre CV sur votre ordinateur
+2. Renommez-le EXACTEMENT : CV_Rahma_Draouil.pdf
+3. Copiez-le dans ce dossier :
+
+   👉 C:\Users\hp\Desktop\portflio\portfolio-rahma\public\documents\
+
+   Résultat :
+   📂 documents
+      └─ 📄 CV_Rahma_Draouil.pdf  ← Votre CV ici
+
+
+═══════════════════════════════════════════════════════════════════
+  ✅ ÉTAPE 3 : VÉRIFIER
+═══════════════════════════════════════════════════════════════════
+
+Option A - Vérification automatique :
+-------------------------------------
+1. Ouvrez PowerShell dans le dossier portfolio-rahma
+2. Tapez : .\verifier-fichiers.ps1
+3. Appuyez sur Entrée
+
+
+Option B - Vérification manuelle :
+----------------------------------
+1. Ouvrez l'Explorateur Windows (Windows + E)
+2. Allez dans : C:\Users\hp\Desktop\portflio\portfolio-rahma\public\images
+3. Vérifiez que vous voyez : photo-rahma.png
+4. Allez dans : C:\Users\hp\Desktop\portflio\portfolio-rahma\public\documents
+5. Vérifiez que vous voyez : CV_Rahma_Draouil.pdf
+
+
+═══════════════════════════════════════════════════════════════════
+  🚀 ÉTAPE 4 : TESTER
+═══════════════════════════════════════════════════════════════════
+
+1. Ouvrez PowerShell ou le Terminal
+2. Tapez : cd C:\Users\hp\Desktop\portflio\portfolio-rahma
+3. Tapez : npm run dev
+4. Ouvrez votre navigateur sur : http://localhost:5173
+5. Vérifiez :
+   ✓ Votre photo apparaît en haut
+   ✓ Le bouton "Télécharger mon CV" fonctionne
+
+
+═══════════════════════════════════════════════════════════════════
+  📋 RÉCAPITULATIF
+═══════════════════════════════════════════════════════════════════
+
+Fichier 1 : PHOTO
+-----------------
+Nom      : photo-rahma.png
+Format   : PNG, JPG ou WEBP
+Dossier  : portfolio-rahma\public\images\
+Taille   : < 500 KB (idéal)
+
+
+Fichier 2 : CV
+--------------
+Nom      : CV_Rahma_Draouil.pdf
+Format   : PDF uniquement
+Dossier  : portfolio-rahma\public\documents\
+Taille   : < 2 MB (recommandé)
+
+
+═══════════════════════════════════════════════════════════════════
+  ⚠️ ERREURS FRÉQUENTES
+═══════════════════════════════════════════════════════════════════
+
+❌ Nom de fichier incorrect
+   ✅ Solution : Respectez EXACTEMENT les noms :
+      • photo-rahma.png (tout en minuscules)
+      • CV_Rahma_Draouil.pdf (avec majuscules et underscores)
+
+❌ Mauvais dossier
+   ✅ Solution : Placez les fichiers aux bons endroits :
+      • Photo : public\images\
+      • CV    : public\documents\
+
+❌ La photo ne s'affiche pas après ajout
+   ✅ Solution : 
+      1. Arrêtez le serveur (Ctrl+C)
+      2. Relancez : npm run dev
+      3. Rechargez la page (Ctrl+F5)
+
+
+═══════════════════════════════════════════════════════════════════
+  🎯 STRUCTURE FINALE ATTENDUE
+═══════════════════════════════════════════════════════════════════
+
+portfolio-rahma/
+└── public/
+    ├── images/
+    │   ├── photo-rahma.png                  ← VOTRE PHOTO
+    │   ├── hero-background.svg
+    │   ├── about-illustration.svg
+    │   ├── profile-placeholder.svg
+    │   ├── projects/ (4 images)
+    │   └── certifications/ (3 images)
+    └── documents/
+        └── CV_Rahma_Draouil.pdf             ← VOTRE CV
+
+
+═══════════════════════════════════════════════════════════════════
+  💡 ASTUCE RAPIDE
+═══════════════════════════════════════════════════════════════════
+
+Pour ouvrir rapidement le bon dossier :
+
+1. Appuyez sur Windows + R
+2. Copiez-collez ce chemin :
+   C:\Users\hp\Desktop\portflio\portfolio-rahma\public
+3. Appuyez sur Entrée
+4. Vous êtes dans le dossier public !
+   • Entrez dans "images" pour la photo
+   • Entrez dans "documents" pour le CV
+
+
+═══════════════════════════════════════════════════════════════════
+  ✅ CHECKLIST FINALE
+═══════════════════════════════════════════════════════════════════
+
+Avant de déployer :
+
+□ Photo ajoutée dans public\images\photo-rahma.png
+□ CV ajouté dans public\documents\CV_Rahma_Draouil.pdf
+□ Noms de fichiers corrects (respectent majuscules et underscores)
+□ Testé avec npm run dev
+□ Photo visible dans la section Hero
+□ Bouton CV télécharge le fichier
+□ Build réussi avec npm run build
+
+
+═══════════════════════════════════════════════════════════════════
+  🎉 C'EST PRÊT !
+═══════════════════════════════════════════════════════════════════
+
+Une fois les 2 fichiers ajoutés et testés :
+
+Commandes finales :
+-------------------
+npm run build    → Créer le build de production
+vercel           → Déployer en ligne (Vercel)
+
+ou
+
+npm run build
+netlify deploy   → Déployer en ligne (Netlify)
+
+
+═══════════════════════════════════════════════════════════════════
+
+Pour plus de détails, consultez :
+• GUIDE_AJOUT_FICHIERS.md (guide complet)
+• INSTRUCTIONS_PHOTO.md (détails photo)
+
+═══════════════════════════════════════════════════════════════════

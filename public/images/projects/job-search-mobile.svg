@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#17324D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1593D0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="#F7FAFC"/>
+  
+  <!-- Phone frame 1 - Candidat -->
+  <g transform="translate(150, 50)">
+    <rect x="0" y="0" width="200" height="400" rx="20" fill="#17324D"/>
+    <rect x="10" y="30" width="180" height="340" rx="10" fill="white"/>
+    <circle cx="100" cy="15" r="5" fill="#666A70"/>
+    
+    <!-- Header -->
+    <rect x="10" y="30" width="180" height="50" fill="url(#phoneGrad)"/>
+    <text x="100" y="60" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Recherche d'emploi</text>
+    
+    <!-- Search bar -->
+    <rect x="25" y="95" width="150" height="30" rx="15" fill="#F7FAFC"/>
+    <text x="100" y="115" font-family="Arial" font-size="11" fill="#666A70" text-anchor="middle">🔍 Rechercher...</text>
+    
+    <!-- Job cards -->
+    <rect x="25" y="140" width="150" height="60" rx="8" fill="#1593D0" opacity="0.1"/>
+    <text x="35" y="160" font-family="Arial" font-size="12" fill="#17324D" font-weight="bold">Développeur Full-Stack</text>
+    <text x="35" y="178" font-family="Arial" font-size="10" fill="#666A70">Entreprise Tech</text>
+    <text x="35" y="193" font-family="Arial" font-size="9" fill="#1593D0">📍 Tunis</text>
+    
+    <rect x="25" y="210" width="150" height="60" rx="8" fill="#1B8A88" opacity="0.1"/>
+    <text x="35" y="230" font-family="Arial" font-size="12" fill="#17324D" font-weight="bold">Ingénieur DevOps</text>
+    <text x="35" y="248" font-family="Arial" font-size="10" fill="#666A70">Startup Innovation</text>
+    <text x="35" y="263" font-family="Arial" font-size="9" fill="#1B8A88">📍 Ariana</text>
+    
+    <rect x="25" y="280" width="150" height="60" rx="8" fill="#1593D0" opacity="0.1"/>
+    <text x="35" y="300" font-family="Arial" font-size="12" fill="#17324D" font-weight="bold">Data Scientist</text>
+    <text x="35" y="318" font-family="Arial" font-size="10" fill="#666A70">AI Company</text>
+    <text x="35" y="333" font-family="Arial" font-size="9" fill="#1593D0">📍 Sfax</text>
+  </g>
+  
+  <!-- Phone frame 2 - Recruteur -->
+  <g transform="translate(450, 50)">
+    <rect x="0" y="0" width="200" height="400" rx="20" fill="#17324D"/>
+    <rect x="10" y="30" width="180" height="340" rx="10" fill="white"/>
+    <circle cx="100" cy="15" r="5" fill="#666A70"/>
+    
+    <!-- Header -->
+    <rect x="10" y="30" width="180" height="50" fill="url(#phoneGrad)"/>
+    <text x="100" y="60" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Espace Recruteur</text>
+    
+    <!-- Stats -->
+    <g transform="translate(30, 100)">
+      <rect x="0" y="0" width="70" height="60" rx="8" fill="#1593D0" opacity="0.2"/>
+      <text x="35" y="30" font-family="Arial" font-size="20" fill="#1593D0" text-anchor="middle" font-weight="bold">24</text>
+      <text x="35" y="48" font-family="Arial" font-size="9" fill="#666A70" text-anchor="middle">Candidats</text>
+    </g>
+    
+    <g transform="translate(110, 100)">
+      <rect x="0" y="0" width="70" height="60" rx="8" fill="#1B8A88" opacity="0.2"/>
+      <text x="35" y="30" font-family="Arial" font-size="20" fill="#1B8A88" text-anchor="middle" font-weight="bold">8</text>
+      <text x="35" y="48" font-family="Arial" font-size="9" fill="#666A70" text-anchor="middle">Offres</text>
+    </g>
+    
+    <!-- Candidate list -->
+    <text x="25" y="190" font-family="Arial" font-size="12" fill="#17324D" font-weight="bold">Candidatures récentes</text>
+    
+    <g transform="translate(25, 200)">
+      <circle cx="15" cy="15" r="12" fill="#1593D0"/>
+      <text x="15" y="20" font-family="Arial" font-size="10" fill="white" text-anchor="middle">A</text>
+      <text x="35" y="18" font-family="Arial" font-size="11" fill="#17324D">Ahmed Ben Ali</text>
+      <text x="35" y="30" font-family="Arial" font-size="9" fill="#666A70">Full-Stack Developer</text>
+    </g>
+    
+    <g transform="translate(25, 250)">
+      <circle cx="15" cy="15" r="12" fill="#1B8A88"/>
+      <text x="15" y="20" font-family="Arial" font-size="10" fill="white" text-anchor="middle">S</text>
+      <text x="35" y="18" font-family="Arial" font-size="11" fill="#17324D">Sara Mansour</text>
+      <text x="35" y="30" font-family="Arial" font-size="9" fill="#666A70">DevOps Engineer</text>
+    </g>
+    
+    <g transform="translate(25, 300)">
+      <circle cx="15" cy="15" r="12" fill="#1593D0"/>
+      <text x="15" y="20" font-family="Arial" font-size="10" fill="white" text-anchor="middle">M</text>
+      <text x="35" y="18" font-family="Arial" font-size="11" fill="#17324D">Mohamed Trabelsi</text>
+      <text x="35" y="30" font-family="Arial" font-size="9" fill="#666A70">Data Analyst</text>
+    </g>
+  </g>
+  
+  <!-- Connection arrows -->
+  <path d="M 360 250 Q 400 250 440 250" stroke="#1593D0" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1593D0" opacity="0.6"/>
+    </marker>
+  </defs>
+</svg>

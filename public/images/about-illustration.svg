@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1593D0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B8A88;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aboutGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#17324D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1593D0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F7FAFC"/>
+  
+  <!-- Laptop/Computer -->
+  <rect x="250" y="250" width="300" height="200" rx="10" fill="url(#aboutGrad1)"/>
+  <rect x="270" y="270" width="260" height="140" fill="#17324D"/>
+  <line x1="270" y1="290" x2="530" y2="290" stroke="#1593D0" stroke-width="2"/>
+  <line x1="270" y1="310" x2="480" y2="310" stroke="#1B8A88" stroke-width="2"/>
+  <line x1="270" y1="330" x2="500" y2="330" stroke="#1593D0" stroke-width="2"/>
+  <rect x="200" y="450" width="400" height="20" rx="5" fill="#17324D"/>
+  
+  <!-- Cloud -->
+  <g transform="translate(600, 100)">
+    <ellipse cx="0" cy="0" rx="50" ry="30" fill="url(#aboutGrad1)"/>
+    <ellipse cx="-30" cy="0" rx="35" ry="22" fill="url(#aboutGrad1)"/>
+    <ellipse cx="30" cy="0" rx="35" ry="22" fill="url(#aboutGrad1)"/>
+    <text x="0" y="5" font-family="Arial" font-size="20" fill="white" text-anchor="middle">☁</text>
+  </g>
+  
+  <!-- Docker containers -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="80" height="80" rx="5" fill="url(#aboutGrad2)" opacity="0.8"/>
+    <rect x="10" y="10" width="60" height="15" fill="white" opacity="0.3"/>
+    <rect x="10" y="35" width="60" height="35" fill="white" opacity="0.2"/>
+    <text x="40" y="60" font-family="monospace" font-size="12" fill="white" text-anchor="middle">API</text>
+  </g>
+  
+  <g transform="translate(100, 280)">
+    <rect x="0" y="0" width="80" height="80" rx="5" fill="url(#aboutGrad2)" opacity="0.8"/>
+    <rect x="10" y="10" width="60" height="15" fill="white" opacity="0.3"/>
+    <rect x="10" y="35" width="60" height="35" fill="white" opacity="0.2"/>
+    <text x="40" y="60" font-family="monospace" font-size="12" fill="white" text-anchor="middle">DB</text>
+  </g>
+  
+  <!-- Neural Network -->
+  <g transform="translate(650, 350)">
+    <circle cx="0" cy="0" r="15" fill="#1593D0"/>
+    <circle cx="0" cy="50" r="15" fill="#1593D0"/>
+    <circle cx="0" cy="100" r="15" fill="#1593D0"/>
+    <circle cx="80" cy="25" r="15" fill="#1B8A88"/>
+    <circle cx="80" cy="75" r="15" fill="#1B8A88"/>
+    <circle cx="160" cy="50" r="15" fill="#17324D"/>
+    <line x1="15" y1="0" x2="65" y2="25" stroke="#1593D0" stroke-width="2" opacity="0.5"/>
+    <line x1="15" y1="50" x2="65" y2="25" stroke="#1593D0" stroke-width="2" opacity="0.5"/>
+    <line x1="15" y1="50" x2="65" y2="75" stroke="#1593D0" stroke-width="2" opacity="0.5"/>
+    <line x1="15" y1="100" x2="65" y2="75" stroke="#1593D0" stroke-width="2" opacity="0.5"/>
+    <line x1="95" y1="25" x2="145" y2="50" stroke="#1B8A88" stroke-width="2" opacity="0.5"/>
+    <line x1="95" y1="75" x2="145" y2="50" stroke="#1B8A88" stroke-width="2" opacity="0.5"/>
+  </g>
+  
+  <!-- Microservices connections -->
+  <circle cx="400" cy="150" r="8" fill="#1593D0"/>
+  <circle cx="350" cy="120" r="6" fill="#1B8A88"/>
+  <circle cx="450" cy="120" r="6" fill="#1B8A88"/>
+  <circle cx="320" cy="180" r="6" fill="#17324D"/>
+  <circle cx="480" cy="180" r="6" fill="#17324D"/>
+  <line x1="400" y1="150" x2="350" y2="120" stroke="#1593D0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="400" y1="150" x2="450" y2="120" stroke="#1593D0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="400" y1="150" x2="320" y2="180" stroke="#1593D0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="400" y1="150" x2="480" y2="180" stroke="#1593D0" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- IoT device -->
+  <g transform="translate(120, 450)">
+    <rect x="0" y="0" width="50" height="60" rx="5" fill="url(#aboutGrad1)"/>
+    <circle cx="25" cy="20" r="8" fill="white" opacity="0.7"/>
+    <rect x="10" y="35" width="30" height="3" fill="white" opacity="0.5"/>
+    <rect x="10" y="42" width="30" height="3" fill="white" opacity="0.5"/>
+    <rect x="10" y="49" width="30" height="3" fill="white" opacity="0.5"/>
+  </g>
+</svg>

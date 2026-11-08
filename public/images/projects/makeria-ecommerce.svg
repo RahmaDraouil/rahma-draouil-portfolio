@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="shopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1593D0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B8A88;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="#F7FAFC"/>
+  
+  <!-- Browser window -->
+  <rect x="100" y="50" width="600" height="400" rx="10" fill="white" stroke="#17324D" stroke-width="2"/>
+  
+  <!-- Browser header -->
+  <rect x="100" y="50" width="600" height="40" rx="10" fill="#17324D"/>
+  <circle cx="120" cy="70" r="6" fill="#f87171"/>
+  <circle cx="140" cy="70" r="6" fill="#fbbf24"/>
+  <circle cx="160" cy="70" r="6" fill="#4ade80"/>
+  <rect x="200" y="60" width="400" height="20" rx="10" fill="white" opacity="0.2"/>
+  <text x="400" y="75" font-family="monospace" font-size="11" fill="white" text-anchor="middle">makeria-shop.tn</text>
+  
+  <!-- Navigation -->
+  <rect x="100" y="90" width="600" height="50" fill="url(#shopGrad)"/>
+  <text x="150" y="120" font-family="Arial" font-size="16" fill="white" font-weight="bold">Makeria</text>
+  <text x="550" y="120" font-family="Arial" font-size="14" fill="white">🛒 3</text>
+  
+  <!-- Product grid -->
+  <g transform="translate(130, 160)">
+    <rect x="0" y="0" width="120" height="140" rx="8" fill="white" stroke="#1593D0" stroke-width="1"/>
+    <rect x="5" y="5" width="110" height="80" rx="5" fill="#1593D0" opacity="0.1"/>
+    <text x="60" y="50" font-family="Arial" font-size="30" fill="#1593D0" text-anchor="middle">📱</text>
+    <text x="60" y="105" font-family="Arial" font-size="12" fill="#17324D" text-anchor="middle">Smartphone</text>
+    <text x="60" y="125" font-family="Arial" font-size="14" fill="#1593D0" text-anchor="middle" font-weight="bold">899 DT</text>
+  </g>
+  
+  <g transform="translate(270, 160)">
+    <rect x="0" y="0" width="120" height="140" rx="8" fill="white" stroke="#1593D0" stroke-width="1"/>
+    <rect x="5" y="5" width="110" height="80" rx="5" fill="#1B8A88" opacity="0.1"/>
+    <text x="60" y="50" font-family="Arial" font-size="30" fill="#1B8A88" text-anchor="middle">💻</text>
+    <text x="60" y="105" font-family="Arial" font-size="12" fill="#17324D" text-anchor="middle">Ordinateur</text>
+    <text x="60" y="125" font-family="Arial" font-size="14" fill="#1B8A88" text-anchor="middle" font-weight="bold">2499 DT</text>
+  </g>
+  
+  <g transform="translate(410, 160)">
+    <rect x="0" y="0" width="120" height="140" rx="8" fill="white" stroke="#1593D0" stroke-width="1"/>
+    <rect x="5" y="5" width="110" height="80" rx="5" fill="#1593D0" opacity="0.1"/>
+    <text x="60" y="50" font-family="Arial" font-size="30" fill="#1593D0" text-anchor="middle">🎧</text>
+    <text x="60" y="105" font-family="Arial" font-size="12" fill="#17324D" text-anchor="middle">Casque</text>
+    <text x="60" y="125" font-family="Arial" font-size="14" fill="#1593D0" text-anchor="middle" font-weight="bold">299 DT</text>
+  </g>
+  
+  <g transform="translate(550, 160)">
+    <rect x="0" y="0" width="120" height="140" rx="8" fill="white" stroke="#1593D0" stroke-width="1"/>
+    <rect x="5" y="5" width="110" height="80" rx="5" fill="#1B8A88" opacity="0.1"/>
+    <text x="60" y="50" font-family="Arial" font-size="30" fill="#1B8A88" text-anchor="middle">⌚</text>
+    <text x="60" y="105" font-family="Arial" font-size="12" fill="#17324D" text-anchor="middle">Montre</text>
+    <text x="60" y="125" font-family="Arial" font-size="14" fill="#1B8A88" text-anchor="middle" font-weight="bold">599 DT</text>
+  </g>
+  
+  <!-- Shopping cart sidebar -->
+  <rect x="520" y="320" width="160" height="110" rx="8" fill="#17324D" opacity="0.05" stroke="#17324D" stroke-width="1"/>
+  <text x="600" y="340" font-family="Arial" font-size="13" fill="#17324D" text-anchor="middle" font-weight="bold">Panier</text>
+  <text x="540" y="365" font-family="Arial" font-size="11" fill="#666A70">3 articles</text>
+  <text x="540" y="385" font-family="Arial" font-size="11" fill="#666A70">Total: 1697 DT</text>
+  <rect x="540" y="395" width="120" height="25" rx="5" fill="url(#shopGrad)"/>
+  <text x="600" y="412" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Passer commande</text>
+  
+  <!-- Payment icons -->
+  <g transform="translate(130, 320)">
+    <text x="0" y="0" font-family="Arial" font-size="12" fill="#666A70">Paiement sécurisé</text>
+    <rect x="0" y="10" width="50" height="30" rx="5" fill="#1593D0" opacity="0.2"/>
+    <text x="25" y="30" font-family="Arial" font-size="10" fill="#1593D0" text-anchor="middle">💳</text>
+    <rect x="60" y="10" width="50" height="30" rx="5" fill="#1B8A88" opacity="0.2"/>
+    <text x="85" y="30" font-family="Arial" font-size="10" fill="#1B8A88" text-anchor="middle">🔒</text>
+  </g>
+</svg>

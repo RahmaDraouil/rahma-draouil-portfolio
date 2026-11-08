@@ -1,0 +1,138 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║        GUIDE ULTRA-RAPIDE : AJOUTER PHOTO ET CV             ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+┌───────────────────────────────────────────────────────────────┐
+│  📸 VOTRE PHOTO (celle que vous m'avez envoyée)              │
+└───────────────────────────────────────────────────────────────┘
+
+  ÉTAPE 1 : Enregistrer la photo
+  ───────────────────────────────
+  1. Trouvez votre photo dans le chat ci-dessus ☝️
+  2. CLIC DROIT sur la photo
+  3. "Enregistrer l'image sous..."
+  4. Nommez-la : photo-rahma.png
+  5. Enregistrez sur votre Bureau
+
+  ÉTAPE 2 : La copier dans le projet
+  ───────────────────────────────────
+  Windows + E → Ouvrir l'explorateur
+  
+  Allez dans :
+  C:\Users\hp\Desktop\portflio\portfolio-rahma\public\images
+  
+  Collez votre photo-rahma.png dans ce dossier
+
+
+┌───────────────────────────────────────────────────────────────┐
+│  📄 VOTRE CV                                                  │
+└───────────────────────────────────────────────────────────────┘
+
+  🎯 MÉTHODE AUTOMATIQUE (Recommandée)
+  ────────────────────────────────────
+  
+  Dans PowerShell, tapez :
+  
+  cd C:\Users\hp\Desktop\portflio\portfolio-rahma
+  .\copier-cv.ps1
+  
+  Le script va :
+  ✓ Chercher votre CV automatiquement
+  ✓ Vous montrer les PDF trouvés
+  ✓ Le copier au bon endroit
+  ✓ Le renommer correctement
+
+
+  🔧 MÉTHODE MANUELLE
+  ────────────────────
+  
+  1. Trouvez votre CV sur votre PC
+     (Bureau, Documents, Téléchargements...)
+  
+  2. Copiez-le (Ctrl+C)
+  
+  3. Allez dans :
+     C:\Users\hp\Desktop\portflio\portfolio-rahma\public\documents
+  
+  4. Collez (Ctrl+V)
+  
+  5. Renommez en : CV_Rahma_Draouil.pdf
+     (Respectez EXACTEMENT les majuscules et underscores !)
+
+
+┌───────────────────────────────────────────────────────────────┐
+│  ✅ VÉRIFIER QUE TOUT EST OK                                 │
+└───────────────────────────────────────────────────────────────┘
+
+  Dans PowerShell :
+  
+  cd C:\Users\hp\Desktop\portflio\portfolio-rahma
+  .\verifier-fichiers.ps1
+  
+  Vous devez voir : ✅ Photo trouvée !
+                    ✅ CV trouvé !
+
+
+┌───────────────────────────────────────────────────────────────┐
+│  🚀 TESTER LE PORTFOLIO                                      │
+└───────────────────────────────────────────────────────────────┘
+
+  Dans PowerShell :
+  
+  npm run dev
+  
+  Ouvrez : http://localhost:5173
+  
+  Vérifiez :
+  ✓ Votre photo s'affiche en haut
+  ✓ Le bouton "Télécharger mon CV" fonctionne
+
+
+┌───────────────────────────────────────────────────────────────┐
+│  📁 RÉSUMÉ DES EMPLACEMENTS                                  │
+└───────────────────────────────────────────────────────────────┘
+
+  PHOTO :
+  C:\Users\hp\Desktop\portflio\portfolio-rahma\public\images\photo-rahma.png
+
+  CV :
+  C:\Users\hp\Desktop\portflio\portfolio-rahma\public\documents\CV_Rahma_Draouil.pdf
+
+
+┌───────────────────────────────────────────────────────────────┐
+│  🎯 EN RÉSUMÉ - 3 COMMANDES POWERSHELL                       │
+└───────────────────────────────────────────────────────────────┘
+
+  cd C:\Users\hp\Desktop\portflio\portfolio-rahma
+  .\copier-cv.ps1          ← Copier le CV automatiquement
+  .\verifier-fichiers.ps1  ← Vérifier que tout est OK
+  npm run dev              ← Tester le portfolio
+
+
+┌───────────────────────────────────────────────────────────────┐
+│  🆘 PROBLÈME ?                                               │
+└───────────────────────────────────────────────────────────────┘
+
+  • Photo ne s'affiche pas ?
+    → Vérifiez le nom : photo-rahma.png (tout minuscule)
+    → Vérifiez le dossier : public\images\
+  
+  • CV ne télécharge pas ?
+    → Vérifiez le nom : CV_Rahma_Draouil.pdf (majuscules !)
+    → Vérifiez le dossier : public\documents\
+  
+  • Rien ne change après ajout ?
+    → Ctrl+C pour arrêter le serveur
+    → npm run dev pour relancer
+    → Ctrl+F5 pour recharger la page
+
+
+═══════════════════════════════════════════════════════════════
+
+C'est tout ! Une fois les 2 fichiers ajoutés, votre portfolio
+sera 100% complet ! 🎉
+
+═══════════════════════════════════════════════════════════════

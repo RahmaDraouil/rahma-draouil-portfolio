@@ -1,0 +1,85 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║              🚀 DÉMARRAGE IMMÉDIAT - 5 MINUTES              ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MINUTE 1-2 : AJOUTER LES FICHIERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  PHOTO :
+    • Enregistrez votre photo du chat
+    • Nommez : photo-rahma.png
+    • Placez dans : portfolio-rahma\public\images\
+
+2️⃣  CV :
+    • Prenez votre CV
+    • Nommez : CV_Rahma_Draouil.pdf
+    • Placez dans : portfolio-rahma\public\documents\
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MINUTE 3 : VÉRIFIER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Ouvrez PowerShell et tapez :
+
+cd C:\Users\hp\Desktop\portflio\portfolio-rahma
+.\verifier-fichiers.ps1
+
+Vous devez voir : ✅ ✅
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MINUTE 4 : TESTER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dans PowerShell :
+
+npm run dev
+
+Ouvrez : http://localhost:5173
+
+Vérifiez :
+✓ Votre photo s'affiche
+✓ Le bouton CV fonctionne
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MINUTE 5 : DÉPLOYER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dans PowerShell :
+
+npm run build
+vercel
+
+C'est en ligne ! 🎉
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📁 CHEMINS EXACTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Photo :
+C:\Users\hp\Desktop\portflio\portfolio-rahma\public\images\photo-rahma.png
+
+CV :
+C:\Users\hp\Desktop\portflio\portfolio-rahma\public\documents\CV_Rahma_Draouil.pdf
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🆘 BESOIN D'AIDE ?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Consultez :
+• INSTRUCTIONS_SIMPLES.txt    → Guide pas à pas
+• GUIDE_AJOUT_FICHIERS.md     → Guide détaillé
+• verifier-fichiers.ps1        → Script vérification
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+C'EST TOUT ! Votre portfolio sera en ligne en 5 minutes ! 🚀
